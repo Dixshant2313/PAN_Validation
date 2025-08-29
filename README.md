@@ -15,12 +15,11 @@ It applies format rules, flags invalid entries, and generates a clean result fil
 ---
 
 ## 📂 Project Structure  
-├── PAN_Validation.ipynb # Jupyter Notebook with source code
-├── PAN Number Validation Dataset.xlsx # Input dataset (raw PAN numbers)
-└── PAN VALIDATION RESULT.xlsx # Output dataset (validated results)
-
-yaml
-Copy code
+```
+├── PAN_Validation.ipynb                # Jupyter Notebook with source code
+├── PAN Number Validation Dataset.xlsx  # Input dataset (raw PAN numbers)
+└── PAN VALIDATION RESULT.xlsx          # Output dataset (validated results)
+```
 
 ---
 
@@ -31,50 +30,54 @@ Copy code
 - openpyxl  
 
 Install dependencies with:  
-```bash
+```
 pip install pandas openpyxl
-🚀 How to Run
-Clone this repository:
+```
 
-bash
-Copy code
-git clone https://github.com/your-username/pan-validation.git
-cd pan-validation
-Launch Jupyter Notebook:
+---
 
-bash
-Copy code
-jupyter notebook
-Open PAN_Validation.ipynb and run all cells.
+## 🚀 How to Run  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/pan-validation.git
+   cd pan-validation
+   ```
 
-The notebook will:
+2. Launch Jupyter Notebook:  
+   ```bash
+   jupyter notebook
+   ```
 
-Read PAN numbers from PAN Number Validation Dataset.xlsx
+3. Open **`PAN_Validation.ipynb`** and run all cells.  
 
-Validate each entry (format, structure, etc.)
+4. The notebook will:  
+   - Read PAN numbers from **`PAN Number Validation Dataset.xlsx`**  
+   - Validate each entry (format, structure, etc.)  
+   - Save results into **`PAN VALIDATION RESULT.xlsx`**  
 
-Save results into PAN VALIDATION RESULT.xlsx
+---
 
-📊 Dataset
-Input → PAN Number Validation Dataset.xlsx
+## 📊 Dataset  
+- **Input** → `PAN Number Validation Dataset.xlsx`  
+- **Output** → `PAN VALIDATION RESULT.xlsx`  
 
-Output → PAN VALIDATION RESULT.xlsx
+Each PAN entry is validated and labeled as **Valid** or **Invalid**.  
 
-Each PAN entry is validated and labeled as Valid or Invalid.
+---
 
-✅ Results
-PAN numbers are classified as Valid or Invalid.
+## ✅ Results  
+- PAN numbers are classified as **Valid** or **Invalid**.  
+- Output is stored in a structured Excel file for easy reference.  
 
-Output is stored in a structured Excel file for easy reference.
+---
 
-🔮 Future Improvements
-Extend validation rules for advanced error checks.
+## 🔮 Future Improvements  
+- Extend validation rules for advanced error checks.  
+- Add duplicate detection.  
+- Create a web-based interface for real-time validation.  
 
-Add duplicate detection.
+---
 
-Create a web-based interface for real-time validation.
-
-🙌 Acknowledgments
-Built with Python, pandas, and openpyxl
-
-Developed and tested in Jupyter Notebook
+## 🙌 Acknowledgments  
+- Built with **Python, pandas, and openpyxl**  
+- Developed and tested in **Jupyter Notebook**  

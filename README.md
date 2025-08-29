@@ -6,6 +6,8 @@
 ![Excel](https://img.shields.io/badge/Data-Excel-lightgrey)  
 ![License](https://img.shields.io/badge/License-MIT-yellow)  
 
+---
+
 ## 📌 Overview  
 The **PAN Number Validation Project** validates Permanent Account Numbers (PAN) from an Excel dataset using Python and Jupyter Notebook.  
 It applies format rules, flags invalid entries, and generates a clean result file, showcasing practical data validation and automation with **pandas**.  
@@ -23,7 +25,6 @@ Copy code
 ---
 
 ## ⚙️ Requirements  
-Make sure you have the following installed:  
 - Python 3.8+  
 - Jupyter Notebook  
 - pandas  
